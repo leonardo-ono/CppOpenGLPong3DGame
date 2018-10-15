@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Pong3D" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/opengl" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="glfw" />
+					<Add library="dl" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/opengl" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="glfw" />
+					<Add library="dl" />
+				</Linker>
+			</Target>
+			<Target title="DebugWindows">
+				<Option output="bin/Debug/pong3d" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="opengl32" />
+					<Add library="glfw3" />
+					<Add library="gdi32" />
+					<Add library="winmm" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="include/Ball.h" />
+		<Unit filename="include/Camera.h" />
+		<Unit filename="include/Paddle.h" />
+		<Unit filename="include/Shader.h" />
+		<Unit filename="include/Table.h" />
+		<Unit filename="src/Ball.cpp" />
+		<Unit filename="src/Camera.cpp" />
+		<Unit filename="src/Paddle.cpp" />
+		<Unit filename="src/Shader.cpp" />
+		<Unit filename="src/Table.cpp" />
+		<Unit filename="src/glad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

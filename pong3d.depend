@@ -1,0 +1,279 @@
+# depslib dependency file v1.0
+1539561984 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/main.cpp
+	<iostream>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	"Shader.h"
+	"Mesh.h"
+	"Paddle.h"
+
+1539608354 
+
+1539276828 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1539563501 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/Shader.cpp
+	<glad/glad.h>
+	"Shader.h"
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1539610127 pp>
+
+1539563222 /media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/include/Shader.h
+	<glm/glm.hpp>
+
+1539559437 /media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/include/Mesh.h
+	"Shader.h"
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1539562009 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/Mesh.cpp
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+	<math.h>
+	"Mesh.h"
+
+1539585126 /media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/include/Paddle.h
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+	"Shader.h"
+	"Ball.h"
+
+1539583274 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/Paddle.cpp
+	<iostream>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+	<math.h>
+	<cmath>
+	<stdlib.h>
+	"Paddle.h"
+
+1539276828 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1539585155 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/main.cpp
+	<iostream>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	"Shader.h"
+	"Table.h"
+	"Ball.h"
+	"Paddle.h"
+
+1539585126 /media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/include/Ball.h
+	"Shader.h"
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1539582478 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/Ball.cpp
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+	<math.h>
+	<cmath>
+	"Ball.h"
+
+1539566212 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/Table.cpp
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+	<math.h>
+	"Table.h"
+
+1539585126 /media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/include/Table.h
+	"Shader.h"
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1539610701 source:e:\leo\apps\c++\opengl\test004\opengl\src\ball.cpp
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+	<math.h>
+	<cmath>
+	<iostream>
+	"Ball.h"
+	"Camera.h"
+
+1539609106 e:\leo\apps\c++\opengl\test004\opengl\include\ball.h
+	"Shader.h"
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1539609587 e:\leo\apps\c++\opengl\test004\opengl\include\shader.h
+	<glad/glad.h>
+	<glm/glm.hpp>
+
+1539280428 source:e:\leo\apps\c++\opengl\test004\opengl\src\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1539614279 source:e:\leo\apps\c++\opengl\test004\opengl\src\main.cpp
+	<iostream>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	"Shader.h"
+	"Table.h"
+	"Ball.h"
+	"Paddle.h"
+	"Camera.h"
+
+1539612275 e:\leo\apps\c++\opengl\test004\opengl\include\table.h
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+	"Shader.h"
+	"Camera.h"
+
+1539609106 e:\leo\apps\c++\opengl\test004\opengl\include\paddle.h
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+	"Shader.h"
+	"Ball.h"
+	"Camera.h"
+
+1539608495 source:e:\leo\apps\c++\opengl\test004\opengl\src\paddle.cpp
+	<iostream>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+	<math.h>
+	<cmath>
+	<stdlib.h>
+	"Paddle.h"
+
+1539610127 source:e:\leo\apps\c++\opengl\test004\opengl\src\shader.cpp
+	<glad/glad.h>
+	"Shader.h"
+	<string>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1539608519 source:e:\leo\apps\c++\opengl\test004\opengl\src\table.cpp
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+	<math.h>
+	"Table.h"
+
+1539611145 source:e:\leo\apps\c++\opengl\test004\opengl\src\camera.cpp
+	"Camera.h"
+
+1539608354 e:\leo\apps\c++\opengl\test004\opengl\include\camera.h
+	"Ball.h"
+
+1539276828 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1539610701 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/Ball.cpp
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+	<math.h>
+	<cmath>
+	<iostream>
+	"Ball.h"
+	"Camera.h"
+
+1539609106 /media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/include/Ball.h
+	"Shader.h"
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1539609587 /media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/include/Shader.h
+	<glad/glad.h>
+	<glm/glm.hpp>
+
+1539608354 /media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/include/Camera.h
+	"Ball.h"
+
+1539611145 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/Camera.cpp
+	"Camera.h"
+
+1539639338 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/main.cpp
+	<iostream>
+	<chrono>
+	<thread>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	"Shader.h"
+	"Table.h"
+	"Ball.h"
+	"Paddle.h"
+	"Camera.h"
+
+1539612275 /media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/include/Table.h
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+	"Shader.h"
+	"Camera.h"
+
+1539609106 /media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/include/Paddle.h
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+	"Shader.h"
+	"Ball.h"
+	"Camera.h"
+
+1539608495 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/Paddle.cpp
+	<iostream>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+	<math.h>
+	<cmath>
+	<stdlib.h>
+	"Paddle.h"
+
+1539610127 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/Shader.cpp
+	<glad/glad.h>
+	"Shader.h"
+	<string>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1539608519 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/Table.cpp
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+	<math.h>
+	"Table.h"
+
