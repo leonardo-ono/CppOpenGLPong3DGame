@@ -11,11 +11,13 @@ class Camera;
 class Ball
 {
     public:
-        Ball();
+        Ball(Shader* s);
         ~Ball();
-        void create(Shader* s);
         void update();
         void render(Camera* camera);
+
+    private:
+        void create();
 
     public:
         glm::vec2 velocity;

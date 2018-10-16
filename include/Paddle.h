@@ -11,14 +11,14 @@
 class Paddle
 {
     public:
-        Paddle();
+        Paddle(GLFWwindow* w, bool isCpuSet, Shader* s, Ball* ball);
         ~Paddle();
-        void create(GLFWwindow* w, bool isCpuSet, Shader* s, Ball* ball);
         void update();
         void render(Camera* camera);
         void checkCollision();
 
     private:
+        void create();
         void updateCPU();
         void updatePlayer();
 

@@ -10,11 +10,13 @@
 class Table
 {
     public:
-        Table();
+        Table(Shader* s);
         ~Table();
-        void create(Shader* s);
         void update();
         void render(Camera* camera);
+
+    private:
+        void create();
 
     private:
         Shader* shader;

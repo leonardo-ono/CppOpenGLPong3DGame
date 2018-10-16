@@ -11,8 +11,6 @@
 #include "Paddle.h"
 #include "Camera.h"
 
-//#include <mmsystem.h>
-
 GLFWwindow* window;
 
 void initializeOpenGL()
@@ -42,22 +40,11 @@ void initializeOpenGL()
 
 void startGame()
 {
-    //mciSendString("play wave1.wav", NULL, 0, NULL);
-
     Shader shader;
-    shader.create();
-
-    Table table;
-    table.create(&shader);
-
-    Ball ball;
-    ball.create(&shader);
-
-    Paddle paddlePlayer;
-    paddlePlayer.create(window, false, &shader, &ball);
-
-    Paddle paddleCPU;
-    paddleCPU.create(window, true, &shader, &ball);
+    Table table(&shader);
+    Ball ball(&shader);
+    Paddle paddlePlayer(window, false, &shader, &ball);
+    Paddle paddleCPU(window, true, &shader, &ball);
 
     Camera camera(&ball);
 

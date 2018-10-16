@@ -6,9 +6,11 @@
 
 #include "Table.h"
 
-Table::Table()
+Table::Table(Shader* s)
 {
     //ctor
+    shader = s;
+    create();
 }
 
 Table::~Table()
@@ -16,10 +18,8 @@ Table::~Table()
     //dtor
 }
 
-void Table::create(Shader* s)
+void Table::create()
 {
-    shader = s;
-
 	GLfloat vertices[] = {
 		-31.0f, 2.0f, -80.0f, 1.0f, -1.0f, 0.0f, 0.0f,
 		-31.0f, 0.0f, -80.0f, 1.0f, -1.0f, 0.0f, 0.0f,

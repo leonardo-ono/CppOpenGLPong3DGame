@@ -18,15 +18,22 @@
 	<winapifamily.h>
 	<dlfcn.h>
 
-1539563501 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/Shader.cpp
+1539610127 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/Shader.cpp
 	<glad/glad.h>
 	"Shader.h"
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+	<glad/glad.h>
+	"Shader.h"
+	<string>
 	<glm/glm.hpp>
 	<glm/ext.hpp>
 
 1539610127 pp>
 
-1539563222 /media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/include/Shader.h
+1539609587 /media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/include/Shader.h
+	<glm/glm.hpp>
+	<glad/glad.h>
 	<glm/glm.hpp>
 
 1539559437 /media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/include/Mesh.h
@@ -42,13 +49,27 @@
 	<math.h>
 	"Mesh.h"
 
-1539585126 /media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/include/Paddle.h
+1539609106 /media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/include/Paddle.h
 	<glm/glm.hpp>
 	<glm/ext.hpp>
 	"Shader.h"
 	"Ball.h"
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+	"Shader.h"
+	"Ball.h"
+	"Camera.h"
 
-1539583274 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/Paddle.cpp
+1539608495 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/Paddle.cpp
+	<iostream>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+	<math.h>
+	<cmath>
+	<stdlib.h>
+	"Paddle.h"
 	<iostream>
 	<glad/glad.h>
 	<GLFW/glfw3.h>
@@ -67,8 +88,15 @@
 	<windows.h>
 	<winapifamily.h>
 	<dlfcn.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
 
-1539585155 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/main.cpp
+1539639338 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/main.cpp
 	<iostream>
 	<glad/glad.h>
 	<GLFW/glfw3.h>
@@ -77,13 +105,27 @@
 	"Table.h"
 	"Ball.h"
 	"Paddle.h"
+	<iostream>
+	<chrono>
+	<thread>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<stdlib.h>
+	"Shader.h"
+	"Table.h"
+	"Ball.h"
+	"Paddle.h"
+	"Camera.h"
 
-1539585126 /media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/include/Ball.h
+1539609106 /media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/include/Ball.h
+	"Shader.h"
+	<glm/glm.hpp>
+	<glm/ext.hpp>
 	"Shader.h"
 	<glm/glm.hpp>
 	<glm/ext.hpp>
 
-1539582478 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/Ball.cpp
+1539610701 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/Ball.cpp
 	<glad/glad.h>
 	<GLFW/glfw3.h>
 	<glm/glm.hpp>
@@ -91,8 +133,23 @@
 	<math.h>
 	<cmath>
 	"Ball.h"
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+	<math.h>
+	<cmath>
+	<iostream>
+	"Ball.h"
+	"Camera.h"
 
-1539566212 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/Table.cpp
+1539608519 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/Table.cpp
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+	<math.h>
+	"Table.h"
 	<glad/glad.h>
 	<GLFW/glfw3.h>
 	<glm/glm.hpp>
@@ -100,10 +157,14 @@
 	<math.h>
 	"Table.h"
 
-1539585126 /media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/include/Table.h
+1539612275 /media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/include/Table.h
 	"Shader.h"
 	<glm/glm.hpp>
 	<glm/ext.hpp>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+	"Shader.h"
+	"Camera.h"
 
 1539610701 source:e:\leo\apps\c++\opengl\test004\opengl\src\ball.cpp
 	<glad/glad.h>
@@ -190,16 +251,13 @@
 1539608354 e:\leo\apps\c++\opengl\test004\opengl\include\camera.h
 	"Ball.h"
 
-1539276828 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/glad.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	<glad/glad.h>
-	<windows.h>
-	<winapifamily.h>
-	<dlfcn.h>
+1539608354 /media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/include/Camera.h
+	"Ball.h"
 
-1539610701 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/Ball.cpp
+1539611145 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/Camera.cpp
+	"Camera.h"
+
+1539690305 source:e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\src\ball.cpp
 	<glad/glad.h>
 	<GLFW/glfw3.h>
 	<glm/glm.hpp>
@@ -210,22 +268,31 @@
 	"Ball.h"
 	"Camera.h"
 
-1539609106 /media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/include/Ball.h
+1539690090 e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\include\ball.h
 	"Shader.h"
 	<glm/glm.hpp>
 	<glm/ext.hpp>
 
-1539609587 /media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/include/Shader.h
+1539690343 e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\include\shader.h
 	<glad/glad.h>
 	<glm/glm.hpp>
 
-1539608354 /media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/include/Camera.h
+1539688408 e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\include\camera.h
 	"Ball.h"
 
-1539611145 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/Camera.cpp
+1539688408 source:e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\src\camera.cpp
 	"Camera.h"
 
-1539639338 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/main.cpp
+1539688408 source:e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\src\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1539690404 source:e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\src\main.cpp
 	<iostream>
 	<chrono>
 	<thread>
@@ -238,20 +305,20 @@
 	"Paddle.h"
 	"Camera.h"
 
-1539612275 /media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/include/Table.h
+1539690108 e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\include\table.h
 	<glm/glm.hpp>
 	<glm/ext.hpp>
 	"Shader.h"
 	"Camera.h"
 
-1539609106 /media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/include/Paddle.h
+1539690097 e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\include\paddle.h
 	<glm/glm.hpp>
 	<glm/ext.hpp>
 	"Shader.h"
 	"Ball.h"
 	"Camera.h"
 
-1539608495 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/Paddle.cpp
+1539690314 source:e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\src\paddle.cpp
 	<iostream>
 	<glad/glad.h>
 	<GLFW/glfw3.h>
@@ -262,14 +329,14 @@
 	<stdlib.h>
 	"Paddle.h"
 
-1539610127 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/Shader.cpp
+1539690373 source:e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\src\shader.cpp
 	<glad/glad.h>
 	"Shader.h"
 	<string>
 	<glm/glm.hpp>
 	<glm/ext.hpp>
 
-1539608519 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/Table.cpp
+1539690319 source:e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\src\table.cpp
 	<glad/glad.h>
 	<GLFW/glfw3.h>
 	<glm/glm.hpp>

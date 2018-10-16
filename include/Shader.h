@@ -9,8 +9,10 @@ class Shader
     public:
         Shader();
         ~Shader();
-        void create();
         void use();
+
+    private:
+        void create();
 
     public:
         GLint vmodel_location;

@@ -8,13 +8,15 @@
 #include "Ball.h"
 #include "Camera.h"
 
-Ball::Ball()
+Ball::Ball(Shader* s)
 {
     //ctor
+    shader = s;
     velocity.x = 1;
     velocity.y = -0.5;
     position.y = -40;
     angleX = 0.0f;
+    create();
 }
 
 Ball::~Ball()
@@ -22,10 +24,8 @@ Ball::~Ball()
     //dtor
 }
 
-void Ball::create(Shader* s)
+void Ball::create()
 {
-    shader = s;
-
 	GLfloat vertices[] = {
 		0.0f, -1.0f, 0.0f, 1.0f, 0.1024f, -0.9435f, 0.3151f,
 		0.425323f, -0.850654f, 0.309011f, 1.0f, 0.1024f, -0.9435f, 0.3151f,

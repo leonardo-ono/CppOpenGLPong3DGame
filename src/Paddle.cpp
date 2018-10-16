@@ -9,9 +9,14 @@
 
 #include "Paddle.h"
 
-Paddle::Paddle()
+Paddle::Paddle(GLFWwindow* w, bool isCpuSet, Shader* s, Ball* b)
 {
     //ctor
+    window = w;
+    isCpu = isCpuSet;
+    shader = s;
+    ball = b;
+    create();
 }
 
 Paddle::~Paddle()
@@ -19,13 +24,8 @@ Paddle::~Paddle()
     //dtor
 }
 
-void Paddle::create(GLFWwindow* w, bool isCpuSet, Shader* s, Ball* b)
+void Paddle::create()
 {
-    window = w;
-    isCpu = isCpuSet;
-    shader = s;
-    ball = b;
-
 	GLfloat vertices[] = {
 		-4.0f, 1.0f, -1.0f, 1.0f, -1.0f, 0.0f, 0.0f,
 		-4.0f, -1.0f, -1.0f, 1.0f, -1.0f, 0.0f, 0.0f,

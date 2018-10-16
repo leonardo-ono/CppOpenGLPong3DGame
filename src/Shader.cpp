@@ -8,6 +8,7 @@
 Shader::Shader()
 {
     //ctor
+    create();
 }
 
 Shader::~Shader()
