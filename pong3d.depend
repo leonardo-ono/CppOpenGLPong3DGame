@@ -257,7 +257,7 @@
 1539611145 source:/media/leo/Novo volume/Leo/apps/c++/opengl/test004/opengl/src/Camera.cpp
 	"Camera.h"
 
-1539690305 source:e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\src\ball.cpp
+1539775096 source:e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\src\ball.cpp
 	<glad/glad.h>
 	<GLFW/glfw3.h>
 	<glm/glm.hpp>
@@ -265,8 +265,8 @@
 	<math.h>
 	<cmath>
 	<iostream>
-	"Ball.h"
-	"Camera.h"
+	"Ball.hpp"
+	"Camera.hpp"
 
 1539690090 e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\include\ball.h
 	"Shader.h"
@@ -280,8 +280,8 @@
 1539688408 e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\include\camera.h
 	"Ball.h"
 
-1539688408 source:e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\src\camera.cpp
-	"Camera.h"
+1539775096 source:e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\src\camera.cpp
+	"Camera.hpp"
 
 1539688408 source:e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\src\glad.c
 	<stdio.h>
@@ -292,18 +292,18 @@
 	<winapifamily.h>
 	<dlfcn.h>
 
-1539690404 source:e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\src\main.cpp
+1539775096 source:e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\src\main.cpp
 	<iostream>
 	<chrono>
 	<thread>
 	<glad/glad.h>
 	<GLFW/glfw3.h>
 	<stdlib.h>
-	"Shader.h"
-	"Table.h"
-	"Ball.h"
-	"Paddle.h"
-	"Camera.h"
+	"Shader.hpp"
+	"Table.hpp"
+	"Ball.hpp"
+	"Paddle.hpp"
+	"Camera.hpp"
 
 1539690108 e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\include\table.h
 	<glm/glm.hpp>
@@ -318,7 +318,7 @@
 	"Ball.h"
 	"Camera.h"
 
-1539690314 source:e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\src\paddle.cpp
+1539775096 source:e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\src\paddle.cpp
 	<iostream>
 	<glad/glad.h>
 	<GLFW/glfw3.h>
@@ -327,20 +327,45 @@
 	<math.h>
 	<cmath>
 	<stdlib.h>
-	"Paddle.h"
+	"Paddle.hpp"
 
-1539690373 source:e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\src\shader.cpp
+1539775096 source:e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\src\shader.cpp
 	<glad/glad.h>
-	"Shader.h"
+	"Shader.hpp"
 	<string>
 	<glm/glm.hpp>
 	<glm/ext.hpp>
 
-1539690319 source:e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\src\table.cpp
+1539775096 source:e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\src\table.cpp
 	<glad/glad.h>
 	<GLFW/glfw3.h>
 	<glm/glm.hpp>
 	<glm/ext.hpp>
 	<math.h>
-	"Table.h"
+	"Table.hpp"
+
+1539775096 e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\include\ball.hpp
+	"Shader.hpp"
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1539690343 e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\include\shader.hpp
+	<glad/glad.h>
+	<glm/glm.hpp>
+
+1539775096 e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\include\camera.hpp
+	"Ball.hpp"
+
+1539775096 e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\include\table.hpp
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+	"Shader.hpp"
+	"Camera.hpp"
+
+1539775096 e:\leo\apps\c++\opengl\test004\cppopenglpong3dgame\include\paddle.hpp
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+	"Shader.hpp"
+	"Ball.hpp"
+	"Camera.hpp"
 

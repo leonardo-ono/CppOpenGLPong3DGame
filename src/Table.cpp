@@ -4,7 +4,7 @@
 #include <glm/ext.hpp>
 #include <math.h>
 
-#include "Table.h"
+#include "Table.hpp"
 
 Table::Table(Shader* s)
 {

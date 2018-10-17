@@ -4,9 +4,9 @@
 #include <glm/glm.hpp>
 #include <glm/ext.hpp>
 
-#include "Shader.h"
-#include "Ball.h"
-#include "Camera.h"
+#include "Shader.hpp"
+#include "Ball.hpp"
+#include "Camera.hpp"
 
 class Paddle
 {

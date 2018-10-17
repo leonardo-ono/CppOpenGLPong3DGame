@@ -7,7 +7,7 @@
 #include <cmath>
 #include <stdlib.h>
 
-#include "Paddle.h"
+#include "Paddle.hpp"
 
 Paddle::Paddle(GLFWwindow* w, bool isCpuSet, Shader* s, Ball* b)
 {

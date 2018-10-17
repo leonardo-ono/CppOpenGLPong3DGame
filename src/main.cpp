@@ -5,11 +5,11 @@
 #include <GLFW/glfw3.h>
 #include <stdlib.h>
 
-#include "Shader.h"
-#include "Table.h"
-#include "Ball.h"
-#include "Paddle.h"
-#include "Camera.h"
+#include "Shader.hpp"
+#include "Table.hpp"
+#include "Ball.hpp"
+#include "Paddle.hpp"
+#include "Camera.hpp"
 
 GLFWwindow* window;
 

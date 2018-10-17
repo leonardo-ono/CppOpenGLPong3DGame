@@ -5,8 +5,8 @@
 #include <math.h>
 #include <cmath>
 #include <iostream>
-#include "Ball.h"
-#include "Camera.h"
+#include "Ball.hpp"
+#include "Camera.hpp"
 
 Ball::Ball(Shader* s)
 {

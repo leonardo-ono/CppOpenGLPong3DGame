@@ -4,8 +4,8 @@
 #include <glm/glm.hpp>
 #include <glm/ext.hpp>
 
-#include "Shader.h"
-#include "Camera.h"
+#include "Shader.hpp"
+#include "Camera.hpp"
 
 class Table
 {
